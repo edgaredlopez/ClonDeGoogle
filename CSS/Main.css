@@ -1,0 +1,207 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Hacer que el header ocupe todo el width o 100% de la pantalla */
+header
+{
+    width: 100%;
+    height: 60px;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: flex-end;
+    height: inherit;
+
+}
+header nav .Nav-right-section
+{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    align-items: center;   
+}
+
+nav  .Nav-right-section a
+{
+    margin-right: 20px;
+    color: #000;
+
+}
+
+nav .Nav-right-section .Menu-Icon
+{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    
+}
+nav .Nav-right-section img
+{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+                        /* Main */
+
+                        /* Logo */
+main
+{
+    margin-top: 80px;
+    text-align: center;
+}
+
+main .LogoPrincipal
+{
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}    
+
+                            /* Input */
+
+main .InputPrincipal
+{
+    width: 595px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .InputPrincipal__Contenedor
+{
+    width: 584px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .InputPrincipal input
+{
+    width: 500px;
+    height: 46px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+
+/* hover */
+main .InputPrincipal__Contenedor:hover
+{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .InputPrincipal .IconoBuscar
+{
+    background-image: url('https://entradas.ateneovalencia.es/ERP/3.1/web/ficheros/653/374/ext/logos/search-icon-hi.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .InputPrincipal .IconoMicrofono
+{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+/* Botones */
+
+main .BotonesPrincipales
+{
+    width: 530px;
+    margin: 0 auto;
+}
+main .BotonesPrincipales div
+{
+    display: inline-block;
+}
+main .BotonesPrincipales button
+{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .BotonesPrincipales button:hover
+{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px  rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
+/* Footer */
+
+footer
+{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top:1px solid #e4e4e4;
+}
+
+footer ul
+{
+    margin: 10px ;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .Footer-left
+{
+    justify-self: left;
+}
+footer .Footer-right
+{
+    justify-self: right;
+}
+
+footer ul li a
+{
+    margin: 10px;
+    color: #5f6368;
+    font-size: 14px;
+}
+.Autoria
+{
+    margin-right: 50px;
+}
